@@ -1,0 +1,113 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow-y: scroll;
+    font-family: Arial;
+    font-size: 18px;
+    text-align: center;
+
+
+
+
+}
+
+#nav{
+    background: url("Vintage_Black___Widescreen_by_twodimensions.jpg");
+    border-bottom: 2px salmon;
+    position: fixed;
+    width: 100%;
+    border-bottom: 3px solid black;
+
+    z-index: 10;
+}
+#nav_wrapper{
+    width: 960px;
+    margin: 0 auto;
+    text-align: left;
+    font-style: italic;
+    padding-left: 2px;
+    text-decoration-color: #222222;
+}
+#nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    color: #cccccc;
+    text-decoration: none;
+
+
+}
+#nav ul li{
+    display: inline-block;
+
+}
+#nav ul li:hover{
+    background-color: #333;
+
+
+}
+#nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+#nav ul li a:visited{
+    color: #ccc;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+
+#nav ul li a:hover{
+    text-decoration: none;
+    color: #cccccc;
+    display: block;
+
+}
+#nav ul li:hover ul{
+    display: block;
+
+}
+#nav ul ul{
+    display: none;
+    position: absolute;
+}
+#nav ul ul li{
+    display: block;
+    background-color: #222222;
+    padding: 20px;
+}
+#video1{
+    padding: 10px;
+    float: left;
+    border: 2px solid black;
+    margin-left: 25px;
+
+}
+
+#video2{
+    padding: 10px;
+    float: right;
+    border: 2px solid black;
+    margin-right: 25px;
+}
+#container{
+
+    position: fixed;
+    width: 100%;
+
+
+
+
+}
+#content{
+    width: 100%;
+    position: relative;
+    top: 570px;
+    background-color: white;
+
+    height: 620px;
+    border-radius: 10px;
+    border-top: black 5px solid;
+
+}
