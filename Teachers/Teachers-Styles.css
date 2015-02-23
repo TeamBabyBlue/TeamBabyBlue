@@ -1,0 +1,81 @@
+@font-face {
+    font-family: SketchRockwell;
+    src: url('SketchRockwell-Bold.ttf');
+}
+body{
+    background-color: #000;
+}
+header>a>img{
+    width: 170px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+#wrapper{
+    margin: 0 auto;
+    width: 1000px;
+    height: 2000px;
+    background: url("1024x768.jpg");
+
+
+
+}
+
+#site-header > ul > li{
+    display: inline-block;
+    margin-top: 55px;
+
+    font-family: SketchRockwell;
+    font-size: 20px;
+
+}
+#site-header{
+    margin-bottom: 40px;
+}
+#site-header > ul > li:nth-child(1){
+    margin-left: 50px;
+}
+a.nav, a.nav:active{
+
+    text-shadow: 2px 5px 27px rgba(255, 255, 255, 1);
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 6px;
+    padding: 10px;
+
+
+}
+a.nav:hover{
+    color: #000;
+    background: rgba(255, 255, 255, 0.5);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+section>article {
+    margin: 0 auto;
+    width: 70%;
+    height: 400px;
+    background-color: rgba(230, 230, 230, 0.7);
+    border-radius: 20px;
+
+    padding: 20px;
+    margin-bottom: 20px;
+
+
+}
+#wrapper > section > article> header > div{
+
+    width: 50%;
+    font-size: large;
+}
+#wrapper > section > article>img{
+
+    width: 40%;
+    height: 100%;
+    float: left;
+
+    padding-right: 5px;
+}
+
+
