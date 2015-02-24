@@ -91,7 +91,7 @@ body{
     border-top: 2px solid grey;
     background-image: url("coat_white_black_stone_texture_36218_1920x1080.jpg");
     color: black;
-    height: 867px;
+    height: 907px;
     border-radius: 7px;
     left: 187px;
     border-left:2px solid grey;
@@ -102,7 +102,7 @@ body{
 }
 #textDesc{
 
-    border-radius: 20px;
+
     background-color: #ffffff;
     border-top: 2px solid black;
     opacity: 0.6;
@@ -111,7 +111,7 @@ body{
 }
 #video1{
 
-
+padding-bottom: 30px;
 
 }
 #video2{
@@ -127,9 +127,89 @@ h2{
 
 }
 #mainContentLife{
-    position: fixed;
-    width: 70%;
-    top: 500px;
-    left: 200px;
+    position: relative;
+    width: 100%;
+    top: 211px;
+    left: 186px;
     background-image: url("coat_white_black_stone_texture_36218_1920x1080.jpg");
+    border-left:2px solid grey;
+    border-right: 2px solid gray;
+    border-top: 2px solid grey;
+    border-radius: 2px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid grey;
+
+}
+h1{
+   background-image: url("coat_white_black_stone_texture_36218_1920x1080.jpg");
+    color: orange;
+    text-shadow: 3px 3px 5px black;
+}
+#textClass{
+
+    background-color: #ffffff;
+    border-top: 2px solid black;
+    opacity: 0.8;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 5px;
+
+}
+#History{
+    position: relative;
+    width: 100%;
+    top: 322px;
+    left: 186px;
+    background-image: url("coat_white_black_stone_texture_36218_1920x1080.jpg");
+    border-left:2px solid grey;
+    border-right: 2px solid gray;
+    border-top: 2px solid grey;
+    border-radius: 2px;
+    padding-bottom: 20px;
+
+
+}
+h1{
+    background-image: url("coat_white_black_stone_texture_36218_1920x1080.jpg");
+    color: orange;
+    text-shadow: 3px 3px 5px black;
+}
+#HistoryText{
+
+    background-color: #ffffff;
+    border-top: 2px solid black;
+    opacity: 0.8;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 10px;
+
+}
+#Training{
+    position: relative;
+    width: 100%;
+    top: 447px;
+    left: 186px;
+    background-image: url("coat_white_black_stone_texture_36218_1920x1080.jpg");
+    border-left:2px solid grey;
+    border-right: 2px solid gray;
+    border-top: 2px solid grey;
+    border-radius: 2px;
+    padding-bottom: 20px;
+
+
+}
+h1{
+    background-image: url("coat_white_black_stone_texture_36218_1920x1080.jpg");
+    color: orange;
+    text-shadow: 3px 3px 5px black;
+}
+#TrainingText{
+
+    background-color: #ffffff;
+    border-top: 2px solid black;
+    opacity: 0.8;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 10px;
+
 }
