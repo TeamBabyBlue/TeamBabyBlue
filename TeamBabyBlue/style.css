@@ -85,7 +85,7 @@ body{
 
 }
 
-#text{
+#mainDesc{
     position: relative;
     top: 500px;
     border-top: 2px solid grey;
@@ -100,11 +100,12 @@ body{
 
 
 }
-p{
-    background-color: white;
+#textDesc{
+
     border-radius: 20px;
-    opacity: 0.6;
+    background-color: #ffffff;
     border-top: 2px solid black;
+    opacity: 0.6;
     width: 900px;
 
 }
@@ -124,4 +125,11 @@ h2{
     font-size: 60px;
 
 
+}
+#mainContentLife{
+    position: fixed;
+    width: 70%;
+    top: 500px;
+    left: 200px;
+    background-image: url("coat_white_black_stone_texture_36218_1920x1080.jpg");
 }
