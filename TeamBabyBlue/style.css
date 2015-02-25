@@ -25,10 +25,6 @@ body{
     border-right: 2px solid gray;
 
 
-
-
-
-
     z-index: 10;
 }
 #nav_wrapper{
@@ -227,15 +223,283 @@ img{
 }
 @media screen and (max-width: 1140px) {
     #nav {
-        background-image: url("coat_white_black_stone_texture_36218_1920x1080.jpg");
-        border-bottom: 2px salmon;
         position: fixed;
-        left: 110px;
+        left: 100px;
         width: 1000px;
         border-bottom: 1px solid grey;
         margin: -25px;
-        border-radius: 7px;
-        border-left: 2px solid grey;
-        border-right: 2px solid gray;
+
+    }
+
+    #mainDesc {
+        position: relative;
+        top: 500px;
+        height: 907px;
+        left: 75px;
+    }
+
+    #mainContentLife{
+        position: relative;
+        width: 100%;
+        top: 169px;
+        left: 75px;
+
+    }
+    #History{
+        position: relative;
+        width: 100%;
+        top: 288px;
+        left: 75px;
+
+    }#Training {
+             position: relative;
+             width: 100%;
+             top: 408px;
+             left: 75px;
+         }
+
+}
+@media screen and (max-width: 980px) {
+    #nav {
+        position: fixed;
+        left: 19px;
+        width: 1000px;
+        border-bottom: 1px solid grey;
+        margin: -25px;
+
+    }
+
+    #mainDesc {
+        position: relative;
+        top: 500px;
+        height: 907px;
+        left: -11px;
+    }
+    #mainContentLife{
+        position: relative;
+        width: 100%;
+        top: 169px;
+        left: -11px;
+
+    }
+    #History{
+        position: relative;
+        width: 100%;
+        top: 288px;
+        left: -11px;
+
+    }
+
+    #Training
+         {
+         position: relative;
+         width: 100%;
+         top: 408px;
+             left: -11px;
+     }
+
+}
+@media screen and (max-width: 800px) {
+    #nav {
+        position: fixed;
+        left: 19px;
+        width: 830px;
+        border-bottom: 1px solid grey;
+        margin: -25px;
+
+    }
+    #nav ul li{
+        display: inline-block;
+        margin-right:15px;
+        font-size: 20px;
+        color: #000000;
+        font-family: monospace;
+
+    }
+
+    #mainDesc {
+        position: relative;
+        top: 500px;
+        height: 907px;
+        left: -100px;
+    }
+    #textDesc{
+
+
+        background-color: #ffffff;
+        border-top: 2px solid black;
+        opacity: 0.6;
+        width: 700px;
+
+    }
+    #mainContentLife{
+        position: relative;
+        width: 100%;
+        top: 169px;
+        left: -100px;
+
+    }
+    #textClass{
+        width: 800px;
+        padding: 5px;
+        margin-left: 90px;
+        font-size: 16px;
+    }
+    #History{
+        position: relative;
+        width: 100%;
+        top: 288px;
+        left: -100px;
+
+    }
+    #HistoryText{
+
+        width: 800px;
+        padding: 10px;
+        margin-left: 90px;
+        font-size: 16px;
+
+    }
+    #Training {
+         position: relative;
+         width: 100%;
+         top: 408px;
+         left: -100px;
+     }
+    #TrainingText{
+
+        width: 800px;
+        padding: 10px;
+        margin-left: 90px;
+        font-size: 16px;
+
+    }
+
+
+
+}
+
+@media screen and (max-width: 800px) {
+    body{
+
+        font-size: 14px;
+
+    }
+    #nav {
+        position: fixed;
+        left: 19px;
+        width: 830px;
+        border-bottom: 1px solid grey;
+        margin: -25px;
+
+    }
+
+    #nav ul li {
+        display: flex;
+        margin-right: 15px;
+        font-size: 20px;
+        color: #000000;
+        font-family: monospace;
+
+    }
+    #nav_wrapper{
+
+        margin: 8px auto;
+        text-align: center;
+
+        padding-left: 84px;
+    }
+    .logoX{
+
+        position: fixed;
+        top: 236px;
+        left: 37px;
+        font-size: 60px;
+    }
+
+    #mainDesc {
+        position: relative;
+        top:392px;
+        height: 1000px;
+        left: -321px;
+    }
+
+    #textDesc {
+
+        width: 300px;
+
+    }
+    #video1{
+width: 300px;
+        padding-bottom: 30px;
+
+    }
+
+    #mainContentLife {
+        position: relative;
+        top: 240px;
+        height: 600px;
+        left: -321px;
+
+    }
+
+    #textClass {
+        width: 300px;
+        padding: 5px;
+        margin-left: 340px;
+
+    }
+
+    #History {
+        position: relative;
+        width: 100%;
+        top: 288px;
+        left: -321px;
+
+    }
+
+    #HistoryText {
+
+        width: 300px;
+        padding: 10px;
+        margin-left: 340px;
+
+    }
+
+    #Training {
+        position: relative;
+        width: 100%;
+        top: 408px;
+        left: -321px;
+    }
+
+    #TrainingText {
+
+        width: 300px;
+        padding: 10px;
+        margin-left: 90px;
+        font-size: 16px;
+        margin-left: 340px;
+
+    }
+    .vidTrailer{
+        width: 300px;
+        border-radius: 3px;
+    }
+    .vidAnim{
+        width: 300px;
+        border-radius: 3px;
+    }
+    .T1{
+        width: 300px;
+    }
+    .T2{
+        width: 300px;
+    }
+    .T3{
+        width: 300px;
+    }
+    .T4{
+        width: 300px;
     }
 }
