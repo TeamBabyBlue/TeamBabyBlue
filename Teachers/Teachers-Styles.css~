@@ -17,6 +17,7 @@ header>a>img{
     width: 1000px;
     height: 2000px;
     background: url("1024x768.jpg");
+    position: fixed;
 
 
 }
