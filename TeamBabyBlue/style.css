@@ -120,17 +120,14 @@ padding-bottom: 30px;
 
 }
 h2{
-    position: fixed;
-    top: 100px;
-    left: 154px;
-    font-size: 60px;
+
 
 
 }
 #mainContentLife{
     position: relative;
     width: 100%;
-    top: 177px;
+    top: 169px;
     left: 186px;
     background-image: url("coat_white_black_stone_texture_36218_1920x1080.jpg");
     border-left:2px solid grey;
@@ -215,6 +212,18 @@ h1{
     margin-right: 60px;
     padding: 10px;
 
+}
+img{
+    border: 3px;
+    border-radius: 3px;
+    box-shadow: 2px 2px  4px black;
+}
+.logoX{
+    border-radius: 30px;
+    position: fixed;
+    top: 190px;
+    left: 204px;
+    font-size: 60px;
 }
 @media screen and (max-width: 1140px) {
     #nav {
