@@ -2,9 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e291372-c0e1-41be-a6c9-b85499d1933a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamBabyBlue/Mansion.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamBabyBlue/article-0-1D8D173400000578-922_634x533.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamBabyBlue/train1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamBabyBlue/train2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamBabyBlue/train3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamBabyBlue/train4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamBabyBlue/TeachTeam.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamBabyBlue/Struktur-ST2-Diamant.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamBabyBlue/Titlexman.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamBabyBlue/Vintage_Black___Widescreen_by_twodimensions.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamBabyBlue/X-Men-2000-wallpaper1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamBabyBlue/bagr.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamBabyBlue/bgr.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamBabyBlue/free_texture_friday_721-1024x682.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamBabyBlue/futr.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamBabyBlue/james_mcavoy_x-men_first_class_charles_xavier_desktop_1920x1080_hd-wallpaper-1225243.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamBabyBlue/tekstury-stena-steny-tekstura.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamBabyBlue/x-men_wallpaper_full_black.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamBabyBlue/xman.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamBabyBlue/Home.html" afterPath="$PROJECT_DIR$/TeamBabyBlue/Home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Teachers/Teachers-Styles.css" afterPath="$PROJECT_DIR$/Teachers/Teachers-Styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamBabyBlue/Life at N-Uni.html" afterPath="$PROJECT_DIR$/TeamBabyBlue/Life at N-Uni.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamBabyBlue/N-Men First Class.html" afterPath="$PROJECT_DIR$/TeamBabyBlue/N-Men First Class.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamBabyBlue/N-Men Forum.html" afterPath="$PROJECT_DIR$/TeamBabyBlue/N-Men Forum.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamBabyBlue/style.css" afterPath="$PROJECT_DIR$/TeamBabyBlue/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TeamBabyBlue.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,21 +76,21 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="Home.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="Home.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/TeamBabyBlue/Home.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="765">
-                  <caret line="14" column="64" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
+                <state vertical-scroll-proportion="0.049668875" vertical-offset="105" max-vertical-offset="765">
+                  <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/TeamBabyBlue/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.42675158" vertical-offset="377" max-vertical-offset="4020">
-                  <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4020">
+                  <caret line="262" column="1" selection-start-line="262" selection-start-column="1" selection-end-line="262" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -86,8 +108,8 @@
       <list>
         <option value="$PROJECT_DIR$/Teachers/Teachers.html" />
         <option value="$PROJECT_DIR$/Teachers/Teachers-Styles.css" />
-        <option value="$PROJECT_DIR$/TeamBabyBlue/Home.html" />
         <option value="$PROJECT_DIR$/TeamBabyBlue/style.css" />
+        <option value="$PROJECT_DIR$/TeamBabyBlue/Home.html" />
       </list>
     </option>
   </component>
@@ -333,18 +355,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TeamBabyBlue/Home.html">
+    <entry file="file://$PROJECT_DIR$/TeamBabyBlue/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="765">
-          <caret line="14" column="64" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4020">
+          <caret line="262" column="1" selection-start-line="262" selection-start-column="1" selection-end-line="262" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TeamBabyBlue/style.css">
+    <entry file="file://$PROJECT_DIR$/TeamBabyBlue/Home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42675158" vertical-offset="377" max-vertical-offset="4020">
-          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.049668875" vertical-offset="105" max-vertical-offset="765">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
           <folding />
         </state>
       </provider>

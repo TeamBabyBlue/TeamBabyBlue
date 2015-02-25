@@ -131,7 +131,7 @@ a.nav:hover{
 }
 #video1{
 
-padding-bottom: 30px;
+    padding-bottom: 30px;
 
 }
 #video2{
@@ -158,7 +158,7 @@ h2{
 
 }
 h1{
-   background-image: url("coat_white_black_stone_texture_36218_1920x1080.jpg");
+    background-image: url("coat_white_black_stone_texture_36218_1920x1080.jpg");
     color: orange;
     text-shadow: 3px 3px 5px black;
 }
