@@ -3,7 +3,7 @@
     src: url('SketchRockwell-Bold.ttf');
 }
 body{
-    background-color: #000;
+    background: url("../TeamBabyBlue/walp1.jpg");
 }
 header>a>img{
     width: 170px;
@@ -23,9 +23,10 @@ header>a>img{
 }
 
 #site-header > ul > li{
+    background:url("1024x768.jpg");
     display: inline-block;
     margin-top: 55px;
-
+    margin-bottom: 10px;
     font-family: SketchRockwell;
     font-size: 20px;
 
@@ -36,7 +37,7 @@ header>a>img{
 #site-header > ul > li:nth-child(1){
     margin-left: 50px;
 }
-a.nav, a.nav:active{
+a.nav{
 
     text-shadow: 2px 5px 27px rgba(255, 255, 255, 1);
     color: #ffffff;
@@ -71,10 +72,9 @@ section>article {
 }
 #wrapper > section > article>img{
 
-    width: 40%;
+    width: 50%;
     height: 100%;
     float: left;
-
     padding-right: 5px;
 }
 
