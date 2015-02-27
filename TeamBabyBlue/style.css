@@ -5,7 +5,7 @@ body{
     font-family: "Comic Sans MS", cursive, sans-serif;
     font-size: 18px;
     text-align: center;
-    background-image: url("walp1.jpg");
+    background: url("walp1.jpg") center center fixed;
     width: 1000px;
 
 

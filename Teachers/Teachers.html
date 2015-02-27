@@ -5,103 +5,187 @@
     <title></title>
     <link rel="stylesheet" href="ResetTeachers.css"/>
     <link rel="stylesheet" href="Teachers-Styles.css"/>
+    <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+
+    <script>
+
+        $(document).ready(function(){
+
+            $("li").mouseover(function() {
+
+                $("#audioplayer")[0].play();
+
+            });
+
+
+        });
+
+    </script>
+    <script>
+        function play(){
+            var audio = document.getElementById("audio");
+            audio.play();
+        }
+    </script>
+
+    <!--<script>-->
+
+        <!--var html5_audiotypes={ //define list of audio file extensions and their associated audio types. Add to it if your specified audio file isn't on this list:-->
+            <!--"mp3": "audio/mpeg",-->
+            <!--"mp4": "audio/mp4",-->
+            <!--"ogg": "audio/ogg",-->
+            <!--"wav": "audio/wav"-->
+        <!--}-->
+
+        <!--function createsoundbite(sound){-->
+            <!--var html5audio=document.createElement('audio')-->
+            <!--if (html5audio.canPlayType){ //check support for HTML5 audio-->
+                <!--for (var i=0; i<arguments.length; i++){-->
+                    <!--var sourceel=document.createElement('source')-->
+                    <!--sourceel.setAttribute('src', arguments[i])-->
+                    <!--if (arguments[i].match(/\.(\w+)$/i))-->
+                        <!--sourceel.setAttribute('type', html5_audiotypes[RegExp.$1])-->
+                    <!--html5audio.appendChild(sourceel)-->
+                <!--}-->
+                <!--html5audio.load()-->
+                <!--html5audio.playclip=function(){-->
+                    <!--html5audio.pause()-->
+                    <!--html5audio.currentTime=0-->
+                    <!--html5audio.play()-->
+                <!--}-->
+                <!--return html5audio-->
+            <!--}-->
+            <!--else{-->
+                <!--return {playclip:function(){throw new Error("Your browser doesn't support HTML5 audio unfortunately")}}-->
+            <!--}-->
+        <!--}-->
+        <!--var mouseoversound=createsoundbite("whistle.ogg", "whistle.mp3")-->
+        <!--var clicksound=createsoundbite("click.ogg", "click.mp3")-->
+    <!--</script>-->
 
 </head>
 <body>
+<header id="site-header">
+    <audio id="audioplayer">
+    <source src="./sounds/sound.mp3" type="audio/mp3">
+
+    </audio>
+    <audio id="audio">
+        <source src="./sounds/maked-choice.mp3" type="audio/mp3">
+        <source src="http://www.cartoonopolis.com/wp-content/uploads/laser28.wav" type="audio/wav">
+    </audio>
+
+    <a href="../TeamBabyBlue/Home.html"><img src="Xlogo6.png" alt="Image was not loaded"/></a>
+    <ul>
+        <li>
+            <a class="nav" href="../TeamBabyBlue/Life%20at%20N-Uni.html" onclick="play()">Life at X-Uni</a>
+        </li>
+        <li>
+            <a class="nav" href="Teachers.html" onclick="play()">Teachers</a>
+        </li>
+        <li>
+            <a class="nav" href="Creators.html" onclick="play()">Creators</a>
+        </li>
+        <li>
+            <a class="nav" href="Forum.html" onclick="play()">Forum</a>
+        </li>
+        <li>
+            <a class="nav" href="Contacts.html" onclick="play()">Contacts</a>
+        </li>
+    </ul>
+    <br/>
+</header>
+<main>
     <div id="wrapper">
-        <header id="site-header">
-            <a href="Home.html"><img src="Xlogo6.png" alt="Image was not loaded"/></a>
-            <ul>
-                <li>
-                    <a class="nav" href="Home.html">Home</a>
-                </li>
-                <li>
-                    <a class="nav" href="Life.html">Life at X-Uni</a>
-                </li>
-                <li>
-                    <a class="nav" href="Teachers.html">Teachers</a>
-                </li>
-                <li>
-                    <a class="nav" href="Creators.html">Creators</a>
-                </li>
-                <li>
-                    <a class="nav" href="Forum.html">Forum</a>
-                </li>
-                <li>
-                    <a class="nav" href="Contacts.html">Contacts</a>
-                </li>
-            </ul>
-            <br/>
-        </header>
+
         <section>
-            <article>
-                <header></header>
-                <img src="../TeamBabyBlue/Nakov.jpg" alt=""/>
-                    <div>
-
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
-                        took a galley of type and scrambled it to make a type specimen book. It has survived not only five
-                        centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                        and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                    </div>
-
-            </article>
-            <article>
-                <header></header>
-                <img src="../TeamBabyBlue/BankinWolv.jpg" alt=""/>
-                    <div>
-
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
-                        took a galley of type and scrambled it to make a type specimen book. It has survived not only five
-                        centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                        and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                    </div>
+            <article id="nakov-article">
+                <header>
+                    <h1>Professor N</h1>
+                </header>
+                <div class="left-side-nakov">
+                    <img class="nakov-image" src="Nakov.jpg" alt=""/>
+                </div>
+                <div>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                    took a galley of type and scrambled it to make a type specimen book. It has survived not only five
+                    centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </div>
 
             </article>
             <article>
-                <header></header>
-                <img src="../TeamBabyBlue/BogiCycl.jpg" alt=""/>
-                    <div>
-
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
-                        took a galley of type and scrambled it to make a type specimen book. It has survived not only five
-                        centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                        and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                    </div>
-
-            </article>
-            <article>
-                <header></header>
-                <img src="../TeamBabyBlue/RosiStorm.jpg" alt=""/>
-                    <div>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
-                        took a galley of type and scrambled it to make a type specimen book. It has survived not only five
-                        centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                        and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                    </div>
+                <header>
+                    <h1>The Bankin Wolverine</h1>
+                </header>
+                <div class="left-side">
+                <img class="bankin-image" src="new-bankin.jpg" alt=""/>
+                </div>
+                <div>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                    took a galley of type and scrambled it to make a type specimen book. It has survived not only five
+                    centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </div>
 
             </article>
             <article>
-                <header></header>
-                    <div>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
-                        took a galley of type and scrambled it to make a type specimen book. It has survived not only five
-                        centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                        and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                    </div>
+                <header>
+                    <h1>Bogy The Cyclops</h1>
+                </header>
+                <div class="left-side">
+                <img class="bogy-image" src="new-bogi.jpg" alt=""/>
+                </div>
+                <div>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                    took a galley of type and scrambled it to make a type specimen book. It has survived not only five
+                    centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </div>
+
+            </article>
+            <article>
+                <header>
+                    <h1>Ache Magneto</h1>
+                </header>
+                <div class="left-side">
+                <img class="ache-image" src="new-ache.jpg" alt=""/>
+                </div>
+                <div>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                    took a galley of type and scrambled it to make a type specimen book. It has survived not only five
+                    centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </div>
+
+            </article>
+            <article>
+                <header>
+                    <h1>Rossy Storm</h1>
+                </header>
+                <div class="left-side">
+                <img class="rossy-image" src="new-rosi.jpg"/>
+                </div>
+                <div>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                    took a galley of type and scrambled it to make a type specimen book. It has survived not only five
+                    centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </div>
 
             </article>
         </section>
     </div>
+</main>
 </body>
 </html>

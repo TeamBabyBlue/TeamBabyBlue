@@ -3,26 +3,78 @@
     src: url('SketchRockwell-Bold.ttf');
 }
 body{
-    background: url("../TeamBabyBlue/walp1.jpg");
+    background: url("../TeamBabyBlue/walp1.jpg") center center fixed;
 }
 header>a>img{
     width: 170px;
     float: left;
-    margin-top: 20px;
+    margin-top: 5px;
     margin-left: 60px;
 }
 
 #wrapper{
     margin: 0 auto;
-    width: 1000px;
-    height: 2000px;
-    background: url("1024x768.jpg");
-
+    width: 960px;
+    height: auto;
+    background: url("background.jpg") center fixed;
+    border-radius: 10px;
 
 }
+ul{
+    padding-top: 17px;
 
+}
+.nakov-image{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.bankin-image{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.bogy-image{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.ache-image{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.rossy-image{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.left-side-nakov{
+    float:left;
+    width: 45%;
+    margin-right: 5px;
+
+}
+.left-side{
+    float:left;
+    width: 45%;
+    margin-right: 5px;
+}
+h1{
+    font-family: SketchRockwell;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 10px;
+}
+article::after{
+    display: block;
+    zoom: 1;
+    content: "";
+    clear: both;
+}
+.image{
+    width: 45%;
+    height: 95%;
+    background-size: 200px;
+    background-position: bottom;
+    display: inline-block;
+}
 #site-header > ul > li{
-    background:url("1024x768.jpg");
     display: inline-block;
     margin-top: 55px;
     margin-bottom: 10px;
@@ -31,7 +83,12 @@ header>a>img{
 
 }
 #site-header{
+    width: 960px;
+    border-radius: 10px;
+    margin: 0 auto;
     margin-bottom: 40px;
+    background: url("1024x768.jpg");
+    height: 100px;
 }
 #site-header > ul > li:nth-child(1){
     margin-left: 50px;
@@ -43,7 +100,6 @@ a.nav{
     text-decoration: none;
     border-radius: 6px;
     padding: 10px;
-    background: none;
 
 }
 a.nav:hover{
@@ -55,14 +111,16 @@ a.nav:hover{
 section>article {
     margin: 0 auto;
     width: 70%;
-    height: 400px;
+    height: 330px;
     background-color: rgba(230, 230, 230, 0.7);
     border-radius: 20px;
-
     padding: 20px;
     margin-bottom: 20px;
 
 
+}
+#nakov-article{
+    height: 230px;
 }
 #wrapper > section > article> header > div{
 
@@ -70,12 +128,19 @@ section>article {
     font-size: large;
 }
 #wrapper > section > article>img{
-    border-color: darkslategrey;
     border-radius: 8px;
     width: 50%;
     height: 100%;
     float: left;
     padding-right: 5px;
 }
+section{
+    padding: 20px;
+}
+#wrapper > section > article:nth-child(5){
+    margin-bottom: 0;
+}
+
+
 
 
