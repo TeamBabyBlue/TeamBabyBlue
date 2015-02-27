@@ -1,0 +1,107 @@
+body{
+    background: url("../TeamBabyBlue/walp1.jpg");
+}
+@font-face {
+    font-family: SketchRockwell;
+    src: url('SketchRockwell-Bold.ttf');
+}
+#wrapper {
+    margin: 0 auto;
+    width: 1000px;
+    height: 2000px;
+    background: url(1024x768_v2.jpg);
+}
+#xuni-header {
+    margin-bottom: 40px;
+}
+header>a>img{
+    width: 170px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+#xuni-header > ul > li{
+    background:url("1024x768.jpg");
+    display: inline-block;
+    margin-top: 55px;
+    margin-bottom: 10px;
+    font-family: SketchRockwell;
+    font-size: 20px;
+
+}
+#xuni-header > ul > li:nth-child(1){
+    margin-left: 50px;
+}
+a.nav{
+    text-shadow: 2px 5px 27px rgba(255, 255, 255, 1);
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 6px;
+    padding: 10px;
+    background: none;
+}
+a.nav:hover{
+    color: #000;
+    background: rgba(255, 255, 255, 0.5);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#aboutUsWide {
+    width: 105%;
+    height: 20%;
+    margin-left: -20px;
+}   
+section>article {
+    margin: 0 auto;
+    width: 70%;
+    height: 300px;
+    background-color: rgba(230, 230, 230, 0.7);
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 25px black;
+}    
+#wrapper > section > article> header > div{
+    width: 30%;
+    font-size: large;
+}
+#wrapper > section > article > img {
+    border-color: darkslategrey;
+    border-radius: 30px;
+    float: left;
+    padding-right: 15px;
+}
+#wrapper > section > article > img:hover{
+    opacity: 0.9;
+    transition: opacity 0.1s ease-in-out;
+    -moz-transition: opacity 0.1s ease-in-out;
+    -webkit-transition: opacity 0.1s ease-in-out;
+}
+#wrapper > section > article > header {
+    text-align: center;
+    font-family: SketchRockwell;
+    font-size: 18pt;
+    margin-bottom: 10px;
+    text-shadow: 3px 3px 3px gray;
+}
+#babyblueteam {
+    font-family: SketchRockwell;
+    font-size: 12pt;
+}
+.SoftuniLinkProfile {
+    color: black;
+    text-decoration: none;
+    font-size: 14pt;
+    font-weight: 600;
+    margin-top: 20px;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+.SoftuniLinkProfile:hover {
+    color: #292929;
+    text-shadow: 2px 2px 2px white;
+}
