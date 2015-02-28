@@ -16,7 +16,7 @@ header>a>img{
     margin: 0 auto;
     width: 960px;
     height: auto;
-    background: url("background.jpg") center fixed;
+    background: url("../Creators/1024x768_v2.jpg") center fixed;
     border-radius: 10px;
 
 }
@@ -139,6 +139,13 @@ section{
 }
 #wrapper > section > article:nth-child(5){
     margin-bottom: 0;
+}
+.description{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+.bold{
+    font-weight: 600;
 }
 
 
