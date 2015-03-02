@@ -1,0 +1,206 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow-y: scroll;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    background-image: url("../walp1.jpg");
+    width: 1000px;
+}
+#nav{
+    background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+    border-bottom: 2px salmon;
+    position: fixed;
+    left: 210px;
+    width: 1000px;
+    border-bottom: 1px solid grey;
+    margin: -25px;
+    border-radius: 7px;
+    border-left:2px solid grey;
+    border-right: 2px solid gray;
+
+
+    z-index: 10;
+}
+#nav_wrapper{
+    width: 960px;
+    margin: 0 auto;
+    text-align: left;
+    font-style: italic;
+    padding-left: 2px;
+    text-decoration-color: #222222;
+}
+#nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+
+    text-decoration: none;
+
+
+}
+#nav ul li{
+    display: inline-block;
+    margin-right: 30px;
+    font-size: larger;
+    color: #000000;
+    font-family: monospace;
+
+}
+#nav ul li:hover{
+
+
+
+}
+#nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+#nav ul li a:visited{
+    color: #ccc;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+
+#nav ul li a:hover{
+    text-decoration: none;
+    color: #000;
+    display: block;
+}
+#nav ul li:hover ul{
+    display: block;
+    color: aqua;
+    background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+
+}
+img{
+    border: 3px;
+    border-radius: 3px;
+    box-shadow: 2px 2px  4px black;
+}
+aside {
+position: fixed;
+top:380px;
+left:204px;
+width: 300px;
+height:auto;
+background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+}
+header{
+font-size: 2em;
+color: white;
+}
+.logoX{
+    border-radius: 30px;
+    position: fixed;
+    top: 190px;
+    left: 204px;
+    font-size: 60px;
+}
+section {
+margin-top: 150px;
+display: inline-block;
+margin-left:520px;
+width: 665px;
+}
+#Question1{
+width: 660px;
+background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+}
+#Question2{
+width: 660px;
+background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+}
+#Question3{
+width: 660px;
+background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+}
+#Question4{
+width: 660px;
+background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+}
+#Question5{
+width: 660px;
+background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+}
+#Question6{
+width: 660px;
+background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+}
+#Theme{
+width:640px;
+border-color:blue;
+border-style: solid;
+border-width: 10px;
+background-color: white;
+}
+article{
+	padding-bottom:50px;
+}
+nav ul li a:visited {
+color: grey;
+}
+nav ul li {
+list-style-type: none;
+padding-bottom:5px;
+}
+#headcombined{
+    margin: 0 auto;
+    width: 1000px;
+    height: 100px;
+    background background-image: url(../1024x768_v2.jpg)
+    position: fixed;
+    top: 0px;
+    left: 187px;
+    z-index: 10;
+    border-radius: 10px;
+}
+.Homelogo{
+    position: fixed;
+    top: 0px;
+    left: 188px;
+}
+#xuni-header {
+    position: fixed;
+    top: 0px;
+    left: 364px;
+}
+@font-face {
+    font-family: SketchRockwell;
+    src: url('../SketchRockwell-Bold.ttf');
+}
+header>a>img{
+    width: 170px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+#xuni-header > ul > li{
+
+    display: inline-block;
+    margin-top: 55px;
+    margin-bottom: 10px;
+    font-family: SketchRockwell;
+    font-size: 20px;
+
+}
+#xuni-header > ul > li:nth-child(1){
+    margin-left: 50px;
+}
+a.nav{
+    text-shadow: 2px 5px 27px rgba(255, 255, 255, 1);
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 6px;
+    padding: 0px;
+    background: none;
+}
+a.nav:hover{
+    color: #000;
+    background: rgba(255, 255, 255, 0.5);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
