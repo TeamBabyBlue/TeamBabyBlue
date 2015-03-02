@@ -21,7 +21,7 @@ header>a>img{
     margin-left: 60px;
 }
 #xuni-header > ul > li{
-    background:url("1024x768.jpg");
+    background:url("1024x768_v2.jpg");
     display: inline-block;
     margin-top: 55px;
     margin-bottom: 10px;
@@ -46,11 +46,18 @@ a.nav:hover{
     padding-top: 5px;
     padding-bottom: 5px;
 }
-#aboutUsWide {
-    width: 105%;
-    height: 20%;
+#aboutPic {
+    background-image: url(aboutPic.jpg);
+    width: 105.8%;
+    height: 61%;
     margin-left: -20px;
-}   
+    margin-top: -5px;
+    margin-bottom: 10px;
+    border-radius: 0px !important;
+}
+#aboutPic:hover {
+    background-image: url(aboutPic2.jpg);
+}
 section>article {
     margin: 0 auto;
     width: 70%;
@@ -60,6 +67,8 @@ section>article {
     padding: 20px;
     margin-bottom: 20px;
     box-shadow: 5px 5px 25px black;
+    text-align: justify;
+    font-size: 11pt;
 }    
 #wrapper > section > article> header > div{
     width: 30%;
