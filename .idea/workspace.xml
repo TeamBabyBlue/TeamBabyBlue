@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e291372-c0e1-41be-a6c9-b85499d1933a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Teachers/maked-choice.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Teachers/sound.mp3" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Teachers/bankin.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Teachers/bogi.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Teachers/c63amg.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Teachers/Teachers-Styles.css" afterPath="$PROJECT_DIR$/Teachers/Teachers-Styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Teachers/Teachers.html" afterPath="$PROJECT_DIR$/Teachers/Teachers.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Teachers/onclick.js" afterPath="$PROJECT_DIR$/Teachers/onclick.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TeamBabyBlue.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,14 +29,14 @@
     <favorites_list name="TeamBabyBlue" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.69043475">
+    <splitter split-orientation="horizontal" split-proportion="0.6478261">
       <split-first>
         <leaf>
           <file leaf-file-name="Teachers.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Teachers/Teachers.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.42880794" vertical-offset="1721" max-vertical-offset="2385">
-                  <caret line="132" column="21" selection-start-line="132" selection-start-column="21" selection-end-line="132" selection-end-column="21" />
+                <state vertical-scroll-proportion="0.25496688" vertical-offset="356" max-vertical-offset="2430">
+                  <caret line="34" column="88" selection-start-line="34" selection-start-column="88" selection-end-line="34" selection-end-column="88" />
                   <folding />
                 </state>
               </provider>
@@ -53,9 +49,11 @@
           <file leaf-file-name="Teachers-Styles.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Teachers/Teachers-Styles.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.8566879" vertical-offset="1787" max-vertical-offset="2415">
-                  <caret line="155" column="0" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
-                  <folding />
+                <state vertical-scroll-proportion="0.8566879" vertical-offset="3227" max-vertical-offset="3930">
+                  <caret line="253" column="24" selection-start-line="253" selection-start-column="24" selection-end-line="253" selection-end-column="24" />
+                  <folding>
+                    <element signature="e#93#166#0" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -291,7 +289,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2415">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#93#166#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -307,7 +307,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2415">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#93#166#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -323,7 +325,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2385">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#93#166#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -339,7 +343,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2385">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#93#166#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -355,7 +361,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2280">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#93#166#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -385,7 +393,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1965">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#93#166#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -415,7 +425,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1965">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#93#166#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -445,7 +457,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1935">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#93#166#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -461,7 +475,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1320">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#93#166#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -500,19 +516,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Teachers/Teachers-Styles.css">
+    <entry file="file://$PROJECT_DIR$/Teachers/Teachers.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8566879" vertical-offset="1787" max-vertical-offset="2415">
-          <caret line="155" column="0" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.25496688" vertical-offset="356" max-vertical-offset="2430">
+          <caret line="34" column="88" selection-start-line="34" selection-start-column="88" selection-end-line="34" selection-end-column="88" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Teachers/Teachers.html">
+    <entry file="file://$PROJECT_DIR$/Teachers/Teachers-Styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42880794" vertical-offset="1721" max-vertical-offset="2385">
-          <caret line="132" column="21" selection-start-line="132" selection-start-column="21" selection-end-line="132" selection-end-column="21" />
-          <folding />
+        <state vertical-scroll-proportion="0.8566879" vertical-offset="3227" max-vertical-offset="3930">
+          <caret line="253" column="24" selection-start-line="253" selection-start-column="24" selection-end-line="253" selection-end-column="24" />
+          <folding>
+            <element signature="e#93#166#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
