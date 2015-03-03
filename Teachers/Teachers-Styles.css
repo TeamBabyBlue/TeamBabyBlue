@@ -18,6 +18,7 @@ header>a>img{
     height: auto;
     background: url("../Creators/1024x768_v2.jpg") center fixed;
     border-radius: 10px;
+    box-shadow: 3px 3px 10px black;
 
 }
 ul{
@@ -89,6 +90,7 @@ article::after{
     margin-bottom: 40px;
     background: url("1024x768.jpg");
     height: 100px;
+    box-shadow: 3px 3px 10px black;
 }
 #site-header > ul > li:nth-child(1){
     margin-left: 50px;
@@ -99,7 +101,7 @@ a.nav{
     color: #ffffff;
     text-decoration: none;
     border-radius: 6px;
-    padding: 10px;
+    padding: 8px;
 
 }
 a.nav:hover{
@@ -116,7 +118,7 @@ section>article {
     border-radius: 20px;
     padding: 20px;
     margin-bottom: 20px;
-
+    box-shadow: 5px 5px 25px black;
 
 }
 #nakov-article{

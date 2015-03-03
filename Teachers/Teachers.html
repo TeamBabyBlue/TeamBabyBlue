@@ -5,7 +5,7 @@
     <title></title>
     <link rel="stylesheet" href="ResetTeachers.css"/>
     <link rel="stylesheet" href="Teachers-Styles.css"/>
-    <link rel="script" href="onclick.js"/>
+
     <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
 
     <script>
@@ -17,8 +17,6 @@
                 $("#audioplayer")[0].play();
 
             });
-
-
         });
 
     </script>
@@ -27,7 +25,7 @@
 <body>
 <header id="site-header">
     <audio id="audioplayer">
-    <source src="./sounds/sound.mp3" type="audio/mp3">
+        <source src="./sounds/sound.mp3" type="audio/mp3">
 
     </audio>
     <audio id="audio">
@@ -37,19 +35,22 @@
     <a href="../TeamBabyBlue/Home.html"><img src="Xlogo6.png" alt="Image was not loaded"/></a>
     <ul>
         <li>
-            <a class="nav" href="../TeamBabyBlue/Life%20at%20N-Uni.html" onclick="document.getElementById('audio').play()">Life at X-Uni</a>
+            <a class="nav" href="../TeamBabyBlue/Home.html">Home</a>
         </li>
         <li>
-            <a class="nav" href="Teachers.html" onclick="play()">Teachers</a>
+            <a class="nav" href="../TeamBabyBlue/Life%20at%20N-Uni.html">Life at X-Uni</a>
         </li>
         <li>
-            <a class="nav" href="Creators.html" onclick="play()">Creators</a>
+            <a class="nav" href="Teachers.html">Teachers</a>
         </li>
         <li>
-            <a class="nav" href="Forum.html" onclick="play()">Forum</a>
+            <a class="nav" href="Creators.html" >Creators</a>
         </li>
         <li>
-            <a class="nav" href="Contacts.html" onclick="play()">Contacts</a>
+            <a class="nav" href="Forum.html" >Forum</a>
+        </li>
+        <li>
+            <a class="nav" href="Contacts.html" >Contacts</a>
         </li>
     </ul>
     <br/>
@@ -66,7 +67,7 @@
                     <img class="nakov-image" src="Nakov.jpg" alt=""/>
                 </div>
                 <div class="description">
-                    Svetlin Nakov (also known as Professor N ) has 20+ years experience of technical background as discoverer of people with superhuman powers.
+                    Svetlin Nakov (also known as Professor N) has 20+ years experience of technical background as discoverer of people with superhuman powers.
                     He founded X-Uni to teach mutants to coding and control their powers.
                     Its first group of students are Ache Magneto, The Bankin Wolverine, Bogy The Cyclops and Rossy Storm.
                     X-Uni's students consider him a visionary and often refer to their mission as "Nakov's dream".
@@ -117,12 +118,15 @@
 
                 </div>
                 <div class="description">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
-                    took a galley of type and scrambled it to make a type specimen book. It has survived not only five
-                    centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    Bogy the Cyclops is one of the first true N-men. His also considered as one of the most powerful and trusted among them.
+                    He discovered his coding powers when he was very young and has been using them ever since.
+                    He can also shoot a powerful laser beam from his eyes but he rarely does,
+                    since an accident in high school when <span class="bold">he incinerated one of his teachers.</span>
+                    Professor N soon discovered him and took him under his wing.
+                    Bogy was fitted with special glasses that help him control the laser and
+                    also write high-quality code. Today he teaches classes to his fellow mutant
+                    programmers and helps them every way he can. His dedication and honesty are
+                    qualities that the gifted students value highly.
                 </div>
 
             </article>
@@ -131,7 +135,7 @@
                     <h1>Rossy Storm</h1>
                 </header>
                 <div class="left-side">
-                <img class="rossy-image" src="new-rosi.jpg"/>
+                    <img class="rossy-image" src="new-rosi.jpg"/>
                 </div>
                 <div class="description">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.
