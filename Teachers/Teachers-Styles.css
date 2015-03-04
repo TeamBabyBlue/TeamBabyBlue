@@ -131,10 +131,10 @@ section>article {
     width: 50%;
     font-size: large;
 }
-#wrapper > section > article>img{
+#wrapper > section > article > img{
     border-radius: 8px;
-    width: 50%;
-    height: 100%;
+    width: 30%;
+    height: 30%;
     float: left;
     padding-right: 5px;
 }
@@ -142,7 +142,7 @@ section{
     padding: 20px;
 }
 #wrapper > section > article:nth-child(5){
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
 .description{
     font-family: "Comic Sans MS", cursive, sans-serif;

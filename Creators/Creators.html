@@ -5,10 +5,31 @@
     <title>Creators</title>
     <link rel="stylesheet" type="text/css" href="Creators-reset.css"/>
     <link rel="stylesheet" type="text/css" href="Creators-styles.css"/>
+    <link rel="script" href="onclick.js"/>
+    <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+
+    <script>
+
+        $(document).ready(function(){
+
+            $("li").mouseover(function() {
+
+                $("#audioplayer")[0].play();
+
+            });
+
+
+        });
+
+    </script>
+
 </head>
 <body>
-    <div id="wrapper">
-         <header id="xuni-header">
+    <header id="xuni-header">
+            <audio id="audioplayer">
+                <source src="./sounds/sound.mp3" type="audio/mp3">
+
+            </audio>
             <a href="Home.html"><img src="Xlogo6.png" alt="Image was not loaded"/></a>
             <ul>
                 <li>
@@ -32,6 +53,7 @@
             </ul>
             <br/>
         </header>
+    <div id="wrapper">
         <section>
             <article>
                 <header>About us</header>
@@ -46,47 +68,44 @@
             </article>
             <article>
                 <header>Djumi</header>
-                <img src="djumi.jpg" alt=""/>
-                    <div>
-
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
-                        took a galley of type and scrambled it to make a type specimen book. It has survived not only five
-                        centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                        and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                <div class="left-side">
+                     <img src="djumi.jpg" alt=""/>
+                </div>
+                <div class="description">
+                        Djumi comes from the IT communications field. Now's he's eager to get new skills like Object-oriented programming,
+                        functional programming, algorithms and databases. He's advanced Linux user and terminal is most used app on his 
+                        computer.
                         <a href="https://softuni.bg/users/profile/show/djumi91"><p class="SoftuniLinkProfile">SoftUni Profile</p></a>
                     </div>
             </article>
             <article>
                 <header>Ivaylo</header>
-                <img src="ivaylo2.jpg" alt=""/>
-                    <div>
+                <div class="left-side">
+                    <img src="ivaylo2.jpg" alt=""/>
+                </div>
+                    <div class="description">
                         He discovered his powers only recently but in truth he has always felt different among normal people. He knew he didn’t fit and his hopes are that he has finally found a true place of acceptances among his X-Uni peers. Powers include: lightning-fast speed and ability to predict the near future and change it.
                         <a href="https://softuni.bg/users/profile/show/ivaylov"><p class="SoftuniLinkProfile">SoftUni Profile</p></a>
                     </div>
 
             </article>
             <article>
-                
                 <header>Martin</header>
-                <img src="martin.jpg" alt=""/>
-                    <div>
-
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
-                        took a galley of type and scrambled it to make a type specimen book. It has survived not only five
-                        centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                        and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                <div class="left-side">
+                      <img src="martin.jpg" alt=""/>
+                </div>
+                    <div class="description">
+                        Martin is the youngest member of BABY BLUE TEAM, but he's very skilled in web development. HTML5, CSS3 and JavaScript are his powerful weapons on the IT field. He also has interests in developing Android mobile application. 
                         <a href="https://softuni.bg/users/profile/show/Martin.Tonchev"><p class="SoftuniLinkProfile">SoftUni Profile</p></a>
                     </div>
 
             </article>
             <article>
                     <header>Stoyan</header> 
-                <img src="stoyan.jpg" alt=""/>
-                    <div>
+                <div class="left-side">
+                    <img src="stoyan.jpg" alt=""/>
+                </div>
+                    <div class="description">
                         His superpowers are visual effects and motion graphics and he's having huge experience in bulgarian film industry Stoyan also has deep interests in math, back-end programming, algorithms and games creation. He's developing his technologies stack in Software University and looking forward to use his new powers in software developing fields.
                         <a href="https://softuni.bg/users/profile/show/stoyanmkd"><p class="SoftuniLinkProfile">SoftUni Profile</p></a>
                     </div>
