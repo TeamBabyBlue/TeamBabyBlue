@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link href="style.css" rel="stylesheet">
+    <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+
+    <script>
+
+        $(document).ready(function(){
+
+            $("li").mouseover(function() {
+
+                $("#audioplayer")[0].play();
+
+            });
+        });
+
+    </script>
+
+</head>
+<body>
+<div >
+
+
+    <div id="nav" align="center">
+             <div id= "headcombined">
+            <a href="index.html"><img src="Xlogo6.png" alt="Image was not loaded" class="Homelogo"/></a>
+            <header id="xuni-header">
+
+                <audio id="audioplayer">
+                    <source src="sound.mp3" type="audio/mp3">
+
+                </audio>
+            <ul>
+                <li>
+                    <a class="nav" href="index.html">Home</a>
+                </li>
+                <li>
+                    <a class="nav" href="Life%20at%20N-Uni.html">Life at X-Uni</a>
+                </li>
+                <li>
+                    <a class="nav" href="Teachers.html">Teachers</a>
+                </li>
+                <li>
+                    <a class="nav" href="Creators.html">Creators</a>
+                </li>
+                <li>
+                    <a class="nav" href="N-Men-Forum.html">Forum</a>
+                </li>
+            </ul>
+            <br/>
+                </header>
+
+    </div>
+
+    </div>
+    <h2><img src="XLogo2.png" class="logoX"> </h2>
+    <div id="mainDesc" align="center">
+        <h1><i></i></h1>
+        <article id="textDesc">
+        <p> The N-men are subspecies of humans who were born with extraordinary abilities. However due to
+            their high functional skills they have trouble integrating in modern society. Preferring the
+            company of the night and the light of the computer monitor.
+            The N-men Institute For The Gifted was founded by Professor N(akov) in an attempt to guide, nurture and protect
+            these extraordinary individuals.
+            They fight for peace and equality between normal humans and software developers in a world where anti-programmer bigotry is fierce and widespread.
+        </p>
+        </article>
+        <div id="video1" align="center" >
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/2aH6sJSSr2k" frameborder="0" allowfullscreen class="vidTrailer"></iframe>
+        </div>
+
+        <div id="video2" align="center" >
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/vdXXiLUD4mY" frameborder="0" allowfullscreen class="vidTrailer"></iframe>
+
+        </div>
+        <div id="partner">
+            OFFICIAL PARTNER - <a href="https://softuni.bg/"><strong>SOFTWARE UNIVERSITY</strong></a>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

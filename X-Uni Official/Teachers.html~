@@ -25,7 +25,7 @@
 <body>
 <header id="site-header">
     <audio id="audioplayer">
-        <source src="./sounds/sound.mp3" type="audio/mp3">
+        <source src="sound.mp3" type="audio/mp3">
 
     </audio>
     <audio id="audio">
@@ -35,10 +35,10 @@
     <a href="../TeamBabyBlue/Home.html"><img src="Xlogo6.png" alt="Image was not loaded"/></a>
     <ul>
         <li>
-            <a class="nav" href="../TeamBabyBlue/Home.html">Home</a>
+            <a class="nav" href="index.html">Home</a>
         </li>
         <li>
-            <a class="nav" href="../TeamBabyBlue/Life%20at%20N-Uni.html">Life at X-Uni</a>
+            <a class="nav" href="Life%20at%20N-Uni.html">Life at X-Uni</a>
         </li>
         <li>
             <a class="nav" href="Teachers.html">Teachers</a>
@@ -47,7 +47,7 @@
             <a class="nav" href="Creators.html" >Creators</a>
         </li>
         <li>
-            <a class="nav" href="Forum.html" >Forum</a>
+            <a class="nav" href="N-Men-Forum.html" >Forum</a>
         </li>
     </ul>
 </header>

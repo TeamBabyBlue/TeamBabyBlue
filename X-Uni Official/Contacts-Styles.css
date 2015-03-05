@@ -1,0 +1,203 @@
+@font-face {
+    font-family: SketchRockwell;
+    src: url('SketchRockwell-Bold.ttf');
+}
+body{
+    margin-top: 0px;
+    background: url("walp1.jpg") center center fixed;
+}
+
+
+header>a>img{
+    width: 170px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 60px;
+}
+
+#wrapper{
+    margin: 0 auto;
+    width: 960px;
+    height: auto;
+    background: url("1024x768_v2.jpg");
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px black;
+
+}
+ul{
+    padding-top: 17px;
+
+}
+#site-header > ul > li{
+    display: inline-block;
+    margin-top: 55px;
+    margin-bottom: 10px;
+    font-family: SketchRockwell;
+    font-size: 20px;
+
+}
+#site-header{
+    width: 960px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    background: url("1024x768.jpg");
+    height: 100px;
+    box-shadow: 3px 3px 10px black;
+}
+#site-header > ul > li:nth-child(1){
+    margin-left: 50px;
+}
+ul{
+    margin-top: 0px;
+}
+a.nav{
+
+    text-shadow: 2px 5px 27px rgba(255, 255, 255, 1);
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 6px;
+    padding: 8px;
+
+}
+a.nav:hover{
+    color: #000;
+    background: rgba(255, 255, 255, 0.5);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+section{
+    padding: 10px;
+}
+section>article {
+    margin: 0 auto;
+    width: 70%;
+    height: 18%;
+    background-color: rgba(230, 230, 230, 0.7);
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 25px black;
+
+}
+#wrapper > section > article > img{
+    max-width: 100%;
+}
+#wrapper>section>article>div{
+    background-color: cadetblue;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+h2{
+    color: #333333;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+}
+.yellow{
+    color: #333333;
+}
+
+@media only screen and (max-width: 1024px){
+    #site-header {
+        width: 95%;
+        border-radius: 10px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        background: url("1024x768.jpg");
+        height: 100px;
+        box-shadow: 3px 3px 10px black;
+    }
+    #wrapper {
+        margin: 0 auto;
+        width: 95%;
+        height: auto;
+        background: url("1024x768_v2.jpg") center;
+        border-radius: 10px;
+        box-shadow: 3px 3px 10px black;
+    }
+    #site-header > ul > li {
+        display: inline-block;
+        margin-top: 55px;
+        margin-bottom: 10px;
+        font-family: SketchRockwell;
+        font-size: 18px;
+    }
+    #site-header > ul > li:nth-child(1){
+        margin-left: 25px;
+    }
+    footer{
+        width: 95%;
+    }
+
+}
+
+@media only screen and (max-width: 960px){
+    #site-header > ul > li {
+        display: inline-block;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        font-family: SketchRockwell;
+        font-size: 18px;
+    }
+    ul {
+        padding-top: 17px;
+        text-align: center;
+    }
+    #site-header > ul > li:nth-child(1) {
+        margin-left: 25px;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    section>article {
+        margin: 0 auto;
+        width: 70%;
+        height: 18%;
+        background-color: rgba(230, 230, 230, 0.7);
+        border-radius: 20px;
+        padding: 20px;
+        margin-bottom: 20px;
+        box-shadow: 5px 5px 25px black;
+    }
+    #site-header > ul > li:nth-child(1) {
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 640px){
+    #site-header{
+        height: auto;
+    }
+
+    header>a>img {
+        margin-right: 35%;
+        padding-right: 25%;
+    }
+
+}
+
+@media only screen and (max-width: 480px){
+    header>a>img {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        padding: 5px;
+        width: 100px;
+    }
+    #site-header > ul > li:nth-child(1) {
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    #site-header > ul > li {
+        width: 100%;
+    }
+    #site-header > ul > li:nth-child(1) {
+        margin-left: 0px;
+    }
+}

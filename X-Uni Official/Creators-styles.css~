@@ -1,0 +1,243 @@
+body{
+    background: url("TeamBabyBlue/walp1.jpg") center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+@font-face {
+    font-family: SketchRockwell;
+    src: url('SketchRockwell-Bold.ttf');
+}
+#wrapper {
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 960px;
+    height: auto;
+    box-shadow: 3px 3px 3px black;
+    background: url(1024x768_v2.jpg);
+}
+#xuni-header {
+    width: 960px;
+    border-radius: 10px;
+    margin: 0 auto;
+    height: 100px;
+    background: url(1024x768_v2.jpg);
+    margin-bottom: 40px;
+    box-shadow: 3px 3px 10px black;
+}
+ul {
+    padding-top: 17px;
+}
+section {
+    padding-top: 20px;
+}
+header>a>img{
+    width: 170px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 60px;
+}
+#xuni-header > ul > li{
+    display: inline-block;
+    margin-top: 55px;
+    margin-bottom: 10px;
+    font-family: SketchRockwell;
+    font-size: 20px;
+
+}
+#xuni-header > ul > li:nth-child(1){
+    margin-left: 50px;
+}
+a.nav{
+    text-shadow: 2px 5px 27px rgba(255, 255, 255, 1);
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 6px;
+    padding: 5px;
+    background: none;
+}
+a.nav:hover{
+    color: #000;
+    background: rgba(255, 255, 255, 0.5);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+html body div#wrapper section article{
+padding: 0;    
+    }
+#aboutPic {
+    background: url(aboutPic.jpg) no-repeat;
+    max-width: 100%;
+    height: 50%;
+    margin-top: -5px;
+    margin-bottom: 10px;
+    border-radius: 0px !important;
+}
+#aboutPic:hover {
+    background-image: url(aboutPic2.jpg);
+}
+html body div#wrapper section article div{
+padding: 10px;
+box-sizing: border-box;
+}
+section>article:nth-of-type(1) {
+    margin: 0 auto;
+    width: 70%;
+    height: 390px;
+    background-color: rgba(230, 230, 230, 0.7);
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 25px black;
+    text-align: justify;
+    font-size: 11pt;
+}
+section > article {
+    margin: 0 auto;
+    width: 70%;
+    height: 250px;
+    background-color: rgba(230, 230, 230, 0.7);
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 25px black;
+    text-align: justify;
+    font-size: 1rem;
+}
+.left-side > img {
+    float: left;
+    border-radius: 30px;
+    width: 30%;
+    height: 30%;
+}
+#wrapper > section > article > img:hover{
+    opacity: 0.9;
+    transition: opacity 0.1s ease-in-out;
+    -moz-transition: opacity 0.1s ease-in-out;
+    -webkit-transition: opacity 0.1s ease-in-out;
+}
+#wrapper > section > article > header {
+    text-align: center;
+    font-family: SketchRockwell;
+    font-size: 18pt;
+    margin-bottom: 10px;
+    text-shadow: 3px 3px 3px gray;
+}
+#babyblueteam {
+    font-family: SketchRockwell;
+    font-size: 12pt;
+}
+.SoftuniLinkProfile {
+    color: black;
+    text-decoration: none;
+    font-size: 14pt;
+    font-weight: 600;
+    margin-top: 20px;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+.SoftuniLinkProfile:hover {
+    color: #292929;
+    text-shadow: 2px 2px 2px white;
+}
+/*1600px, 1024px, 960px, 768px, 640px, 480px, 320px.*/
+@media only screen and (max-width: 1024px){
+    #xuni-header {
+        width: 95%;
+        border-radius: 10px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        background: url("1024x768_v2.jpg");
+        height: 100px;
+        box-shadow: 3px 3px 10px black;
+    }
+    #wrapper {
+        margin: 0 auto;
+        width: 95%;
+        height: auto;
+        background: url("../Creators/1024x768_v2.jpg") center fixed;
+        border-radius: 10px;
+        box-shadow: 3px 3px 10px black;
+    }
+    #xuni-header > ul > li {
+        display: inline-block;
+        margin-top: 55px;
+        margin-bottom: 10px;
+        font-family: SketchRockwell;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 960px){
+    #xuni-header > ul > li {
+        display: inline-block;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        font-family: SketchRockwell;
+        font-size: 18px;
+    }
+    ul {
+        padding-top: 17px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    section>article {
+        margin: 0 auto;
+        width: 70%;
+        height: 18%;
+        background-color: rgba(230, 230, 230, 0.7);
+        border-radius: 20px;
+        padding: 20px;
+        margin-bottom: 20px;
+        box-shadow: 5px 5px 25px black;
+    }
+    section>article:nth-of-type(1) {
+        height: 30%;
+    }
+    #aboutPic {
+        background: none;
+    }
+}
+
+@media only screen and (max-width: 640px){
+    #xuni-header{
+        height: auto;
+    }
+
+    header>a>img {
+        margin-left: 35%;
+        margin-right: 35%;
+        padding-right: 25%;
+    }
+
+}
+
+@media only screen and (max-width: 480px){
+    header>a>img {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        padding: 5px;
+        width: 100px;
+    }
+    #xuni-header > ul > li:nth-child(1) {
+        margin-left: 25px;
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    #xuni-header > ul > li {
+        width: 100%;
+    }
+    #xuni-header > ul > li:nth-child(1) {
+        margin-left: 0px;
+    }
+}

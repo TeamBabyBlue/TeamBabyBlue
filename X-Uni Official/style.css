@@ -1,0 +1,895 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow-y: scroll;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    background: url("walp1.jpg")center center fixed;
+    width: 1000px;
+    background-repeat: no-repeat;
+    background-color: #000000;
+
+
+
+}
+#headcombined{
+    margin: 0 auto;
+    width: 1000px;
+    height: 100px;
+    background: url(1024x768_v2.jpg);
+    position: fixed;
+    top: 0px;
+    left: 187px;
+    z-index: 10;
+    border-radius: 10px;
+}
+.Homelogo{
+    position: fixed;
+    top: 0px;
+    left: 216px;
+}
+#xuni-header {
+    top: 0px;
+    left: 364px;
+}
+@font-face {
+    font-family: SketchRockwell;
+    src: url('SketchRockwell-Bold.ttf');
+}
+header>a>img{
+    width: 170px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+#xuni-header > ul > li{
+
+    display: inline-block;
+    margin-top: 55px;
+    margin-bottom: 10px;
+    font-family: SketchRockwell;
+    font-size: 20px;
+
+}
+#xuni-header > ul > li:nth-child(1){
+    margin-left: 50px;
+}
+a.nav{
+    text-shadow: 2px 5px 27px rgba(255, 255, 255, 1);
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 6px;
+    padding: 10px;
+    background: none;
+}
+a.nav:hover{
+    color: #000;
+    background: rgba(255, 255, 255, 0.5);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+h2{
+    position: fixed;
+    top: 2300px;
+    left: 300px;
+}
+
+#mainDesc{
+    position: relative;
+    top: 400px;
+    border-top: 2px solid grey;
+    background-image: url("coat_white_black_stone_texture_36218_1920x1080.jpg");
+    color: black;
+    height: 1000px;
+    border-radius: 7px;
+    left: 187px;
+    border-left:2px solid grey;
+    border-right: 2px solid gray;
+    text-shadow: 2px 2px 4px black;
+
+
+}
+#textDesc{
+
+
+    background-color: #ffffff;
+    border-top: 2px solid black;
+    opacity: 0.6;
+    width: 900px;
+
+}
+#video1{
+
+padding-bottom: 30px;
+
+}
+#video2{
+
+
+}
+#partner{
+    padding: 3px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    opacity: 0.4;
+    margin-top: 20px;
+}
+#partner a{
+    color: black;
+
+
+
+}
+.vidTrailer{
+
+    border-radius: 10px;
+    border: 5px solid #000000;
+}
+.vidAnim{
+
+    border-radius: 3px;
+
+    border-radius: 10px;
+    border: 5px solid #000000;
+}
+#mainContentLife{
+    position: relative;
+    width: 100%;
+    top: 169px;
+    left: 186px;
+    background-image: url("coat_white_black_stone_texture_36218_1920x1080.jpg");
+    border-left:2px solid grey;
+    border-right: 2px solid gray;
+    border-top: 2px solid grey;
+    border-radius: 2px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid grey;
+
+}
+h1{
+   background-image: url("coat_white_black_stone_texture_36218_1920x1080.jpg");
+    color: orange;
+    text-shadow: 3px 3px 5px black;
+}
+#textClass{
+
+    background-color: #ffffff;
+    border-top: 2px solid black;
+    opacity: 0.8;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 5px;
+
+}
+#History{
+    position: relative;
+    width: 100%;
+    top: 288px;
+    left: 186px;
+    background-image: url("coat_white_black_stone_texture_36218_1920x1080.jpg");
+    border-left:2px solid grey;
+    border-right: 2px solid gray;
+    border-top: 2px solid grey;
+    border-radius: 2px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid grey;
+
+
+}
+h1{
+    background-image: url("coat_white_black_stone_texture_36218_1920x1080.jpg");
+    color: orange;
+    text-shadow: 3px 3px 5px black;
+}
+#HistoryText{
+
+    background-color: #ffffff;
+    border-top: 2px solid black;
+    opacity: 0.8;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 10px;
+
+}
+#Training{
+    position: relative;
+    width: 100%;
+    top: 408px;
+    left: 186px;
+    background-image: url("coat_white_black_stone_texture_36218_1920x1080.jpg");
+    border-left:2px solid grey;
+    border-right: 2px solid gray;
+    border-top: 2px solid grey;
+    border-radius: 2px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid grey;
+
+
+}
+h1{
+    background-image: url("coat_white_black_stone_texture_36218_1920x1080.jpg");
+    color: orange;
+    text-shadow: 3px 3px 5px black;
+}
+#TrainingText{
+
+    background-color: #ffffff;
+    border-top: 2px solid black;
+    opacity: 0.8;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 10px;
+
+}
+img{
+    border: 3px;
+    border-radius: 3px;
+
+}
+.logoX{
+    border-radius: 30px;
+    position: fixed;
+    top: 190px;
+    left: 204px;
+    font-size: 60px;
+}
+@media screen and (max-width: 1024px) {
+    body{
+        width: 900px;
+    }
+
+    #headcombined {
+        margin: 0 auto;
+        width: 900px;
+        height: 100px;
+        background: url(1024x768_v2.jpg);
+        position: fixed;
+        left: 67px;
+
+    }
+
+    .Homelogo {
+
+        left: 84px;
+    }
+    #mainDesc{
+        width: 900px;
+        position: relative;
+        top: 401px;
+        left: 66px;
+    }
+
+    #xuni-header {
+        position: fixed;
+        top: 0px;
+        left: 195px;
+    }
+
+    #xuni-header > ul > li {
+
+        display: inline-block;
+        margin-top: 55px;
+        margin-bottom: 10px;
+        font-family: SketchRockwell;
+        font-size: 20px;
+
+    }
+
+    #xuni-header > ul > li:nth-child(1) {
+        margin-left: 50px;
+    }
+
+    a.nav {
+        text-shadow: 2px 5px 27px rgba(255, 255, 255, 1);
+        color: #ffffff;
+        text-decoration: none;
+        border-radius: 6px;
+        padding: 10px;
+        background: none;
+    }
+
+    a.nav:hover {
+        color: #000;
+        background: rgba(255, 255, 255, 0.5);
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+   #mainContentLife{
+       position: relative;
+       width: 900px;
+       top: 169px;
+       left: 65px;
+   }
+    #History{
+        position: relative;
+        width: 900px;
+        top: 288px;
+        left: 65px;
+
+    }
+
+    #Training
+    {
+        position: relative;
+        width: 900px;
+        top: 408px;
+        left: 65px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 960px) {
+
+    #headcombined{
+        margin: 0 auto;
+        width: 100%;
+        height: 100px;
+        background: url(1024x768_v2.jpg);
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        z-index: 10;
+        border-radius: 10px;
+    }
+    #xuni-header > ul > li{
+
+        margin-top: 0px;
+        padding-top: 0px;
+        font-family: SketchRockwell;
+        font-size: 20px;
+
+
+    }
+    #xuni-header > ul > li:nth-child(1){
+
+    }
+    .Homelogo{
+        position: fixed;
+        top: 0px;
+        left: 86px;
+    }
+    #xuni-header {
+        position: fixed;
+        top: 7px;
+        left: 201px;
+
+        text-align: center;
+    }
+
+    #mainDesc {
+        position: relative;
+        top: 500px;
+        height: 907px;
+        left: 10px;
+    }
+    #mainContentLife{
+        position: relative;
+        width: 100%;
+        top: 169px;
+        left: 10px;
+
+    }
+    #History{
+        position: relative;
+        width: 100%;
+        top: 288px;
+        left: 10px;
+
+    }
+
+    #Training
+         {
+         position: relative;
+         width: 100%;
+         top: 408px;
+        left: 10px;
+     }
+
+}
+@media screen and (max-width: 768px) {
+    body{
+        width:700px;
+    }
+    #headcombined{
+        margin: 0 auto;
+        width: 100%;
+        height: 100px;
+        background: url(1024x768_v2.jpg);
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        z-index: 10;
+        border-radius: 10px;
+    }
+    #xuni-header > ul > li{
+
+        margin-top: 0px;
+        padding-top: 0px;
+        font-family: SketchRockwell;
+        font-size: 20px;
+
+
+    }
+    #xuni-header > ul > li:nth-child(1){
+
+    }
+    .Homelogo{
+        position: fixed;
+        top: 0px;
+        left: 21px;
+    }
+    #xuni-header {
+        position: fixed;
+        top: 10px;
+        left: 172px;
+
+        text-align: center;
+    }
+
+
+    #mainDesc {
+        position: relative;
+        top: 369px;
+        height: 1100px;
+        left: 16px;
+        width: 700px;
+    }
+    #textDesc{
+
+
+        background-color: #ffffff;
+        border-top: 2px solid black;
+        opacity: 0.6;
+        width: 600px; left: 35px;
+        margin-left: -1px;
+
+    }
+    #mainContentLife{
+        position: relative;
+        width: 100%;
+        top: 169px;
+
+
+    }
+    #textClass{
+        width: 600px;
+        padding: 5px;
+        margin-left: 50px;
+        font-size: 16px;
+    }
+    #History{
+        position: relative;
+        width: 100%;
+        top: 288px;
+        left: 12px;
+
+    }
+    #HistoryText{
+
+        width: 600px;
+        padding: 10px;
+        margin-left: 50px;
+        font-size: 16px;
+
+    }
+    #Training {
+         position: relative;
+         width: 100%;
+         top: 408px;
+        left: 12px;
+     }
+    #TrainingText{
+
+        width: 600px;
+        padding: 10px;
+        margin-left: 50px;
+        font-size: 16px;
+
+    }
+.logoX{
+
+    position: fixed;
+    top: 154px;
+    left: 249px;
+    font-size: 60px;
+}
+
+
+}
+@media screen and (max-width: 640px) {
+    body{
+        width: 600px;
+    }
+    #headcombined{
+        margin: 0 auto;
+        width: 100%;
+        height: 160px;
+        background: url(1024x768_v2.jpg);
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        z-index: 10;
+        border-radius: 10px;
+    }
+    #xuni-header > ul > li{
+
+        margin-top: 0px;
+        padding-top: 0px;
+        font-family: SketchRockwell;
+        font-size: 20px;
+
+
+    }
+    #xuni-header > ul > li:nth-child(1){
+
+    }
+    .Homelogo{
+        position: fixed;
+        top: 0px;
+        left: 21px;
+    }
+    #xuni-header {
+        position: fixed;
+        top: 10px;
+        left: 172px;
+
+        text-align: center;
+    }
+
+
+    #mainDesc {
+        position: relative;
+        top: 358px;
+        height: 1100px;
+        left: 43px;
+        width: 85%;
+    }
+    #textDesc{
+
+        background-color: #ffffff;
+        border-top: 2px solid black;
+        opacity: 0.6;
+        width: 500px;
+
+    }
+    #mainContentLife{
+        position: relative;
+        width: 95%;
+        top: 169px;
+        left: 14px;
+
+    }
+    #textClass{
+        width: 500px;
+        padding: 5px;
+        margin-left: 48px;
+        font-size: 16px;
+    }
+    #History{
+        position: relative;
+        width: 95%;
+        top: 288px;
+        left: 14px;
+
+    }
+    #HistoryText{
+
+        width: 500px;
+        padding: 10px;
+        margin-left: 48px;
+        font-size: 16px;
+
+    }
+    #Training {
+        position: relative;
+        width: 95%;
+        top: 408px;
+        left: 14px;
+    }
+    #TrainingText{
+
+        width: 500px;
+        padding: 10px;
+        margin-left: 48px;
+        font-size: 16px;
+
+    }
+    .logoX{
+
+        position: fixed;
+        top: 154px;
+        left: 169px;
+        font-size: 60px;
+    }
+
+    .vidTrailer{
+        width: 350px;
+        border-radius: 3px;
+
+    }
+    .vidAnim{
+        width: 350px;
+        border-radius: 3px;
+
+    }
+
+
+}
+
+@media screen and (max-width: 480px) {
+    body{
+        width: 400px;
+    }
+    #headcombined{
+        margin: 0 auto;
+        width: 100%;
+        height: 168px;
+        background: url(1024x768_v2.jpg);
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        z-index: 10;
+        border-radius: 10px;
+    }
+    #xuni-header > ul > li{
+
+        margin-top: 0px;
+        padding-top: 0px;
+        font-family: SketchRockwell;
+        font-size: 20px;
+
+
+    }
+    .logoX{
+        position: fixed;
+        top: 186px;
+        left: 94px;
+        font-size: 60px;
+    }
+    #xuni-header > ul > li:nth-child(1){
+
+    }
+    .Homelogo{
+        position: fixed;
+        top: 33px;
+        left: 21px;
+    }
+    #xuni-header {
+        position: fixed;
+        top: -15px;
+        left: 172px;
+        text-align: center;
+    }
+
+
+    #mainDesc {
+        position: relative;
+        top: 390px;
+        height: 1250px;
+        left: 39px;
+        width: 95%;
+    }
+    #textDesc{
+
+        background-color: #ffffff;
+        border-top: 2px solid black;
+        opacity: 0.6;
+        width: 350px;
+
+    }
+    #mainContentLife{
+        position: relative;
+        width: 100%;
+        top: 183px;
+        left: 24px;
+
+    }
+
+        #textClass {
+    width: 350px;
+        padding: 5px;
+            margin-left: 20px;
+
+    }
+
+    #History{
+        position: relative;
+        width: 100%;
+        top: 288px;
+        left: 24px;
+
+    }
+    #HistoryText{
+
+        width: 320px;
+        padding: 10px;
+        margin-left: 30px;
+        font-size: 16px;
+
+    }
+    #Training {
+        position: relative;
+        width: 100%;
+        top: 408px;
+        left: 24px;
+    }
+    #TrainingText{
+
+        width: 320px;
+        padding: 10px;
+        margin-left: 30px;
+        font-size: 16px;
+
+    }
+    .vidTrailer{
+        width: 350px;
+        border-radius: 3px;
+
+    }
+    .vidAnim{
+        width: 350px;
+        border-radius: 3px;
+
+    }
+    .T1{
+        width: 300px;
+    }
+    .T2{
+        width: 300px;
+    }
+    .T3{
+        width: 300px;
+    }
+    .T4{
+        width: 300px;
+    }
+
+
+}
+
+@media screen and (max-width: 360px) {
+
+    body {
+        width: 300px;
+        font-size: 14px;
+    }
+
+    #xuni-header > ul > li {
+        font-family: SketchRockwell;
+        font-size: 15px;
+    }
+
+    #headcombined {
+        margin: 0 auto;
+        width: 100%;
+        height: 260px;
+        background: url(1024x768_v2.jpg);
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        z-index: 10;
+        border-radius: 10px;
+    }
+
+    #xuni-header > ul > li {
+
+        margin-top: 0px;
+        padding-top: 0px;
+        font-family: SketchRockwell;
+        font-size: 20px;
+
+    }
+
+
+    .Homelogo {
+        position: fixed;
+        top: 0px;
+        left: 96px;
+        width: 180px;
+    }
+
+    #xuni-header {
+        position: fixed;
+        top: 141px;
+        left: -17px;
+
+        text-align: center;
+    }
+
+    .logoX {
+
+        position: fixed;
+        top: 274px;
+        left: 11px;
+        font-size: 60px;
+    }
+
+    #mainDesc {
+        position: relative;
+        top: 392px;
+        height: 1250px;
+        left: 15px;
+    }
+
+    #textDesc {
+
+        width: 270px;
+
+    }
+
+    #mainContentLife {
+        position: relative;
+        top: 274px;
+        height: 600px;
+        left: 12px;
+    }
+
+
+    #textClass {
+        width: 270px;
+        padding: 5px;
+        margin-left: 15px;
+
+    }
+
+    #History {
+        position: relative;
+
+        top: 288px;
+        left: 15px;
+
+    }
+
+    #HistoryText {
+
+        width: 270px;
+        padding: 5px;
+        margin-left: 15px;
+
+    }
+
+    #Training {
+        position: relative;
+
+        top: 408px;
+        left: 15px;
+    }
+
+    #TrainingText {
+
+        width: 270px;
+        padding: 5px;
+        margin-left: 15px;
+    }
+img{
+    width: 250px;
+}
+    .vidTrailer {
+        width: 250px;
+        border-radius: 3px;
+
+    }
+
+    .vidAnim {
+        width: 250px;
+        border-radius: 3px;
+    }
+
+    .T1{
+        width: 200px;
+    }
+    .T2{
+        width: 200px;
+    }
+    .T3{
+        width: 200px;
+    }
+    .T4{
+        width: 200px;
+    }
+
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="Contacts-Styles.css"/>
+    <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+
+    <script>
+
+        $(document).ready(function(){
+
+            $("li").mouseover(function() {
+
+                $("#audioplayer")[0].play();
+
+            });
+        });
+
+    </script>
+
+</head>
+<body>
+    <header id="site-header">
+        <audio id="audioplayer">
+            <source src="sound.mp3" type="audio/mp3">
+
+        </audio>
+
+        <a href="index.html"><img src="Xlogo6.png" alt="Image was not loaded"/></a>
+        <ul>
+            <li>
+                <a class="nav" href="index.html">Home</a>
+            </li>
+            <li>
+                <a class="nav" href="Life%20at%20N-Uni.html">Life at X-Uni</a>
+            </li>
+            <li>
+                <a class="nav" href="Teachers.html">Teachers</a>
+            </li>
+            <li>
+                <a class="nav" href="Creators.html" >Creators</a>
+            </li>
+            <li>
+                <a class="nav" href="N-Men-Forum.html" >Forum</a>
+            </li>
+        </ul>
+    </header>
+</body>
+<main>
+    <div id="wrapper">
+        <section>
+            <article>
+                <div>
+                <h2>Намерете ни</h2>
+                <div><span>София, кв.Изгрев, ул."Тинтява" 15-17, етаж 2</span></div>
+
+                <div><span class="yellow">Работно време: </span><span>10:00 - 18:00 (Понеделник - Петък)</span></div>
+
+                <div><span class="yellow">Телефон: </span><span>+359 899 55 55 92</span></div>
+
+                <div><span class="yellow">Пощенски код: </span><span>1113</span></div>
+
+                <div><span class="yellow">Имейл: </span><span>info@softuni.bg</span></div>
+                </div>
+                <img src="house.jpg" alt=""/>
+
+            </article>
+
+        </section>
+    </div>
+</main>
+
+</html>

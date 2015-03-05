@@ -1,0 +1,762 @@
+body{
+    background: url("../walp1.jpg") center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#wrapper{
+    margin: 0 auto;
+}
+#xuni-header {
+    width: 960px;
+    border-radius: 10px;
+    margin-top: -32px !important;
+    margin-left: 160px;
+    height: 100px;
+    background: url(1024x768_v2.jpg);
+    margin-bottom: 40px;
+    box-shadow: 3px 3px 10px black;
+}
+ul {
+    padding-top: 17px;
+}
+ul > li {
+    padding-left: 15px;
+    text-align: center;
+}
+#nav{
+    background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+    border-bottom: 2px salmon;
+    position: fixed;
+    left: 210px;
+    width: 1000px;
+    border-bottom: 1px solid grey;
+    margin: -25px;
+    border-radius: 7px;
+    border-left:2px solid grey;
+    border-right: 2px solid gray;
+
+
+    z-index: 10;
+}
+#nav_wrapper{
+    width: 960px;
+    margin: 0 auto;
+    text-align: left;
+    font-style: italic;
+    padding-left: 2px;
+    text-decoration-color: #222222;
+}
+#nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+
+    text-decoration: none;
+
+
+}
+#nav ul li{
+    display: inline-block;
+    margin-right: 30px;
+    font-size: larger;
+    color: #000000;
+    font-family: monospace;
+
+}
+}
+#nav ul li a:visited{
+    color: #ccc;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+
+#nav ul li a:hover{
+    text-decoration: none;
+    color: #000;
+    display: block;
+}
+#nav ul li:hover ul{
+    display: block;
+    color: aqua;
+    background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+
+}
+aside {
+position: fixed;
+top:380px;
+left:204px;
+width: 300px;
+height:auto;
+background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+}
+header{
+font-size: 2em;
+color: white;
+}
+.logoX{
+    border-radius: 30px;
+    position: fixed;
+    top: 190px;
+    left: 204px;
+    font-size: 60px;
+    border: 3px;
+    box-shadow: 2px 2px  4px black;
+}
+section {
+margin-top: 150px;
+display: inline-block;
+margin-left:520px;
+width: 665px;
+}
+#Question1{
+width: 660px;
+background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+}
+#Question2{
+width: 660px;
+background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+}
+#Question3{
+width: 660px;
+background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+}
+#Question4{
+width: 660px;
+background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+}
+#Question5{
+width: 660px;
+background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+}
+#Question6{
+width: 660px;
+background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+}
+#Theme{
+width:640px;
+border-color:blue;
+border-style: solid;
+border-width: 10px;
+background-color: white;
+}
+article{
+	padding-bottom:50px;
+}
+nav ul li a{
+    color:black;
+}
+
+    nav ul li a:visited {
+list-style-type:square;
+color: grey;
+}
+nav ul li {
+list-style-type: square;
+padding-bottom:5px;
+}
+#wrapper{
+    margin: 0 auto;
+    width: 1000px;
+    height: 100px;
+    background background-image: url(../1024x768_v2.jpg);
+    position: fixed;
+    top: 0px;
+    left: 10px;
+    z-index: 10;
+    border-radius: 10px;
+}
+.Homelogo{
+    position: fixed;
+    top: 0px;
+    left: 188px;
+    width:170px;
+    margin-left:60px;
+    margin-top:5px;
+}
+@font-face {
+    font-family: SketchRockwell;
+    src: url('../SketchRockwell-Bold.ttf');
+}
+header>a>img{
+    width: 170px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+#xuni-header > ul > li{
+
+    display: inline-block;
+    margin-top: 55px;
+    margin-bottom: 10px;
+    font-family: SketchRockwell;
+    font-size: 20px;
+
+}
+#xuni-header > ul > li:nth-child(1){
+    margin-left: 50px;
+}
+a.nav{
+    text-shadow: 2px 5px 27px rgba(255, 255, 255, 1);
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 6px;
+    padding: 0px;
+    background: none;
+}
+a.nav:hover{
+    color: #000;
+    background: rgba(255, 255, 255, 0.5);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+aside>nav{
+    border-style:solid;
+    border-width: 10px;
+    border-color: blue;
+    background-color: white;
+    text-align: left;
+}
+@media screen and (max-width: 1024px) {
+    body{
+        width: 900px;
+    }
+
+    #headcombined {
+        margin: 0 auto;
+        width: 900px;
+        height: 100px;
+        background: url(1024x768_v2.jpg);
+        position: fixed;
+        left: 67px;
+
+    }
+
+    .Homelogo {
+
+        left: 84px;
+    }
+   
+
+    #xuni-header {
+        position: fixed;
+        top: 0px;
+        left: 195px;
+        background: url(1024x768_v2.jpg);
+    }
+
+    #xuni-header > ul > li {
+
+        display: inline-block;
+        margin-top: 55px;
+        margin-bottom: 10px;
+        font-family: SketchRockwell;
+        font-size: 20px;
+
+    }
+
+    #xuni-header > ul > li:nth-child(1) {
+        margin-left: 50px;
+    }
+
+    a.nav {
+        text-shadow: 2px 5px 27px rgba(255, 255, 255, 1);
+        color: #ffffff;
+        text-decoration: none;
+        border-radius: 6px;
+        padding: 10px;
+        background: none;
+    }
+
+    a.nav:hover {
+        color: #000;
+        background: rgba(255, 255, 255, 0.5);
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    aside{
+        left: 150px;
+        top: 200px;
+        width: 250px;
+    }
+
+    .logoX{
+        width: 0px;
+    }
+    section {
+    margin-top: 175px;
+    display: inline-block;
+    margin-left:420px;
+    width: 505px;
+    }
+    #Question1{
+    width: 500px;
+    background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+    }
+    #Question2{
+    width: 500px;
+    background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+    }
+    #Question3{
+    width: 500px;
+    background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+    }
+    #Question4{
+    width: 500px;
+    background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+    }
+    #Question5{
+    width: 500px;
+    background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+    }
+    #Question6{
+    width: 500px;
+    background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+    }
+    #Theme{
+    width:480px;
+    border-color:blue;
+    border-style: solid;
+    border-width: 10px;
+    background-color: white;
+    }
+    }
+
+@media screen and (max-width: 960px) {
+
+    #headcombined{
+        margin: 0 auto;
+        width: 100%;
+        height: 100px;
+        background: url(1024x768_v2.jpg);
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        z-index: 10;
+        border-radius: 10px;
+    }
+    #xuni-header > ul > li{
+
+        margin-top: 0px;
+        padding-top: 0px;
+        font-family: SketchRockwell;
+        font-size: 20px;
+
+
+    }
+    #xuni-header > ul > li:nth-child(1){
+
+    }
+    .Homelogo{
+        position: fixed;
+        top: 0px;
+        left: 86px;
+    }
+        aside{
+        left: 150px;
+        top: 200px;
+        width: 225px;
+    }
+
+    .logoX{
+        width: 0px;
+    }
+    section {
+    margin-top: 175px;
+    display: inline-block;
+    margin-left:395px;
+    width: 455px;
+    }
+    #Question1{
+    width: 500px;
+    background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+    }
+    #Question2{
+    width: 500px;
+    background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+    }
+    #Question3{
+    width: 500px;
+    background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+    }
+    #Question4{
+    width: 500px;
+    background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+    }
+    #Question5{
+    width: 500px;
+    background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+    }
+    #Question6{
+    width: 500px;
+    background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+    }
+    #Theme{
+    width:480px;
+    border-color:blue;
+    border-style: solid;
+    border-width: 10px;
+    background-color: white;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    body{
+        width:700px;
+    }
+    #headcombined{
+        margin: 0 auto;
+        width: 100%;
+        height: 100px;
+        background: url(1024x768_v2.jpg);
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        z-index: 10;
+        border-radius: 10px;
+    }
+    #xuni-header > ul > li{
+
+        margin-top: 0px;
+        padding-top: 0px;
+        font-family: SketchRockwell;
+        font-size: 20px;
+
+
+    }
+    #xuni-header > ul > li:nth-child(1){
+
+    }
+    .Homelogo{
+        position: fixed;
+        top: 0px;
+        left: 21px;
+    }
+    #xuni-header {
+        position: fixed;
+        top: 10px;
+        left: 172px;
+
+        text-align: center;
+    }
+        aside{
+        left: 100px;
+        top: 200px;
+        width: 240px;
+    }
+
+    .logoX{
+        width: 0px;
+    }
+    section {
+    margin-top: 175px;
+    display: inline-block;
+    margin-left:360px;
+    width: 380px;
+    }
+    #Question1{
+    width: 375px;
+    background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+    }
+    #Question2{
+    width: 375px;
+    background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+    }
+    #Question3{
+    width: 375px;
+    background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+    }
+    #Question4{
+    width: 375px;
+    background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+    }
+    #Question5{
+    width: 375px;
+    background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+    }
+    #Question6{
+    width: 375px;
+    background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+    }
+    #Theme{
+    width:355px;
+    border-color:blue;
+    border-style: solid;
+    border-width: 10px;
+    background-color: white;
+    }
+
+
+}
+@media screen and (max-width: 640px) {
+    body{
+        width: 600px;
+    }
+    #headcombined{
+        margin: 0 auto;
+        width: 100%;
+        height: 160px;
+        background: url(1024x768_v2.jpg);
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        z-index: 10;
+        border-radius: 10px;
+    }
+    #xuni-header > ul > li{
+
+        margin-top: 0px;
+        padding-top: 0px;
+        font-family: SketchRockwell;
+        font-size: 20px;
+
+
+    }
+    #xuni-header > ul > li:nth-child(1){
+
+    }
+    .Homelogo{
+        position: fixed;
+        top: 0px;
+        left: 21px;
+    }
+    #xuni-header {
+        position: fixed;
+        top: 10px;
+        left: 172px;
+
+        text-align: center;
+    }
+        aside{
+        position: relative;
+        left: 150px;
+        top: 175px;
+        width: 450px;
+    }
+
+    .logoX{
+        width: 0px;
+    }
+    section {
+    margin-top: 200px;
+    display: inline-block;
+    margin-left:150px;
+    width: 455px;
+    }
+    #Question1{
+    width: 450px;
+    background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+    }
+    #Question2{
+    width: 450px;
+    background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+    }
+    #Question3{
+    width: 450px;
+    background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+    }
+    #Question4{
+    width: 450px;
+    background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+    }
+    #Question5{
+    width: 450px;
+    background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+    }
+    #Question6{
+    width: 450px;
+    background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+    }
+    #Theme{
+    width:430px;
+    border-color:blue;
+    border-style: solid;
+    border-width: 10px;
+    background-color: white;
+    }
+
+  } 
+
+@media screen and (max-width: 480px) {
+    body{
+        width: 400px;
+    }
+    #headcombined{
+        margin: 0 auto;
+        width: 100%;
+        height: 168px;
+        background: url(1024x768_v2.jpg);
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        z-index: 10;
+        border-radius: 10px;
+    }
+    #xuni-header > ul > li{
+
+        margin-top: 0px;
+        padding-top: 0px;
+        font-family: SketchRockwell;
+        font-size: 20px;
+
+
+    }
+    #xuni-header > ul > li:nth-child(1){
+
+    }
+    .Homelogo{
+        position: fixed;
+        top: 33px;
+        left: 21px;
+    }
+    #xuni-header {
+        position: fixed;
+        top: -15px;
+        left: 172px;
+        text-align: center;
+    }
+            aside{
+        position: relative;
+        left: 50px;
+        top: 200px;
+        width: 400px;
+    }
+
+    .logoX{
+        width: 0px;
+    }
+    section {
+    margin-top: 225px;
+    display: inline-block;
+    margin-left:50px;
+    width: 405px;
+    }
+    #Question1{
+    width: 400px;
+    background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+    }
+    #Question2{
+    width: 400px;
+    background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+    }
+    #Question3{
+    width: 400px;
+    background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+    }
+    #Question4{
+    width: 400px;
+    background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+    }
+    #Question5{
+    width: 400px;
+    background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+    }
+    #Question6{
+    width: 400px;
+    background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+    }
+    #Theme{
+    width:380px;
+    border-color:blue;
+    border-style: solid;
+    border-width: 10px;
+    background-color: white;
+    }
+
+
+@media screen and (max-width: 360px) {
+
+    body {
+        width: 300px;
+        font-size: 14px;
+    }
+
+    #xuni-header > ul > li {
+        font-family: SketchRockwell;
+        font-size: 15px;
+    }
+
+    #headcombined {
+        margin: 0 auto;
+        width: 100%;
+        height: 260px;
+        background: url(1024x768_v2.jpg);
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        z-index: 10;
+        border-radius: 10px;
+    }
+
+    #xuni-header > ul > li {
+
+        margin-top: 0px;
+        padding-top: 0px;
+        font-family: SketchRockwell;
+        font-size: 20px;
+
+    }
+
+
+    .Homelogo {
+        position: fixed;
+        top: 0px;
+        left: 96px;
+        width: 180px;
+    }
+
+    #xuni-header {
+        position: fixed;
+        top: 141px;
+        left: -17px;
+
+        text-align: center;
+    }
+    aside{
+        position: relative;
+        left: 25px;
+        top: 275px;
+        width: 305px;
+    }
+
+    .logoX{
+        width: 0px;
+    }
+    section {
+    margin-top: 300px;
+    display: inline-block;
+    margin-left:25px;
+    width: 310px;
+    }
+    #Question1{
+    width: 305px;
+    background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+    }
+    #Question2{
+    width: 305px;
+    background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+    }
+    #Question3{
+    width: 305px;
+    background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+    }
+    #Question4{
+    width: 305px;
+    background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+    }
+    #Question5{
+    width: 305px;
+    background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+    }
+    #Question6{
+    width: 305px;
+    background-image: url("../coat_white_black_stone_texture_36218_1920x1080.jpg");
+    }
+    #Theme{
+    width:285px;
+    border-color:blue;
+    border-style: solid;
+    border-width: 10px;
+    background-color: white;
+    }

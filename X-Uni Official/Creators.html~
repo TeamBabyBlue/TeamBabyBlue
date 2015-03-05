@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Creators</title>
+    <link rel="stylesheet" type="text/css" href="Creators-reset.css"/>
+    <link rel="stylesheet" type="text/css" href="Creators-styles.css"/>
+    <link rel="script" href="onclick.js"/>
+    <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+
+    <script>
+
+        $(document).ready(function(){
+
+            $("li").mouseover(function() {
+
+                $("#audioplayer")[0].play();
+
+            });
+
+
+        });
+
+    </script>
+
+</head>
+<body>
+    <header id="xuni-header">
+            <audio id="audioplayer">
+                <source src="sound.mp3" type="audio/mp3">
+
+            </audio>
+            <a href="Home.html"><img src="Xlogo6.png" alt="Image was not loaded"/></a>
+            <ul>
+                <li>
+                    <a class="nav" href="Home.html">Home</a>
+                </li>
+                <li>
+                    <a class="nav" href="Life.html">Life at X-Uni</a>
+                </li>
+                <li>
+                    <a class="nav" href="Teachers.html">Teachers</a>
+                </li>
+                <li>
+                    <a class="nav" href="Creators.html">Creators</a>
+                </li>
+                <li>
+                    <a class="nav" href="Forum.html">Forum</a>
+                </li>
+                <li>
+                    <a class="nav" href="Contacts.html">Contacts</a>
+                </li>
+            </ul>
+            <br/>
+        </header>
+    <div id="wrapper">
+        <section>
+            <article>
+                <header>About us</header>
+                <div id="aboutPic">
+                </div> 
+                <div>
+                        We are <span id="babyblueteam">BABY BLUE TEAM</span>, a stundents crew in Software University. This web site
+                        was created by us during the Web Fundamentals course. We were inspired by X-men story. Mr.Nakov and his                                   extraordinary teachers crew taught us how to create impressive and well-looking web sites. We have also improved
+                        our teamwork skills, and uniting our superpowers created this well-looking project. Everyone of us has his own
+                        stack of superpowers, that's why our project is completely impressive.
+                </div>
+            </article>
+            <article>
+                <header>Djumi</header>
+                <div class="left-side">
+                     <img src="djumi.jpg" alt=""/>
+                </div>
+                <div class="description">
+                        Djumi comes from the IT communications field. Now's he's eager to get new skills like Object-oriented programming,
+                        functional programming, algorithms and databases. He's advanced Linux user and terminal is most used app on his 
+                        computer.
+                        <a href="https://softuni.bg/users/profile/show/djumi91"><p class="SoftuniLinkProfile">SoftUni Profile</p></a>
+                    </div>
+            </article>
+            <article>
+                <header>Ivaylo</header>
+                <div class="left-side">
+                    <img src="ivaylo2.jpg" alt=""/>
+                </div>
+                    <div class="description">
+                        He discovered his powers only recently but in truth he has always felt different among normal people. He knew he didn’t fit and his hopes are that he has finally found a true place of acceptances among his X-Uni peers. Powers include: lightning-fast speed and ability to predict the near future and change it.
+                        <a href="https://softuni.bg/users/profile/show/ivaylov"><p class="SoftuniLinkProfile">SoftUni Profile</p></a>
+                    </div>
+
+            </article>
+            <article>
+                <header>Martin</header>
+                <div class="left-side">
+                      <img src="martin.jpg" alt=""/>
+                </div>
+                    <div class="description">
+                        Martin is the youngest member of BABY BLUE TEAM, but he's very skilled in web development. HTML5, CSS3 and JavaScript are his powerful weapons on the IT field. He also has interests in developing Android mobile application. 
+                        <a href="https://softuni.bg/users/profile/show/Martin.Tonchev"><p class="SoftuniLinkProfile">SoftUni Profile</p></a>
+                    </div>
+
+            </article>
+            <article>
+                    <header>Stoyan</header> 
+                <div class="left-side">
+                    <img src="stoyan.jpg" alt=""/>
+                </div>
+                    <div class="description">
+                        His superpowers are visual effects and motion graphics and he's having huge experience in bulgarian film industry Stoyan also has deep interests in math, back-end programming, algorithms and games creation. He's developing his technologies stack in Software University and looking forward to use his new powers in software developing fields.
+                        <a href="https://softuni.bg/users/profile/show/stoyanmkd"><p class="SoftuniLinkProfile">SoftUni Profile</p></a>
+                    </div>
+
+            </article>
+        </section>
+    </div>
+</body>
+</html>

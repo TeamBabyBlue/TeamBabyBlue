@@ -49,6 +49,9 @@
         <li>
             <a class="nav" href="Forum.html" >Forum</a>
         </li>
+        <li>
+            <a class="nav" href="Contacts.html" >Contacts</a>
+        </li>
     </ul>
 </header>
 <main>
